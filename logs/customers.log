@@ -1,0 +1,20 @@
+2022-09-27 18:10:11,027 - mylog - INFO - ==============Generate json job started ==============
+2022-09-27 18:10:11,050 - mylog - INFO - customers_out.json file is deleted
+2022-09-27 18:10:11,053 - mylog - INFO - customers_out.json file not available
+2022-09-27 18:10:11,867 - mylog - INFO - ************===========Starting the Data migration process========************
+2022-09-27 18:10:11,888 - mylog - INFO - Load raw files to raw tables
+2022-09-27 18:10:11,890 - mylog - INFO - ************===========Starting to load raw files to raw tables========************
+2022-09-27 18:10:11,928 - mylog - INFO - Dropping the product_details 
+2022-09-27 18:10:11,945 - mylog - INFO - product_details dropped 
+2022-09-27 18:10:12,392 - mylog - INFO - ************===========Starting to load raw files to raw tables========************
+2022-09-27 18:10:12,427 - mylog - INFO - Dropping the customer_details 
+2022-09-27 18:10:12,446 - mylog - INFO - customer_details dropped 
+2022-09-27 18:10:12,588 - mylog - INFO - ************===========Starting to load raw files to raw tables========************
+2022-09-27 18:10:12,622 - mylog - INFO - Dropping the customer_transaction 
+2022-09-27 18:10:12,637 - mylog - INFO - customer_transaction dropped 
+2022-09-27 18:10:12,972 - mylog - INFO - ************===========Starting to load raw files to raw tables========************
+2022-09-27 18:10:13,002 - mylog - INFO - Dropping the customer_payment 
+2022-09-27 18:10:13,017 - mylog - INFO - customer_payment dropped 
+2022-09-27 18:10:13,308 - mylog - INFO - Load raw tables to Stg tables
+2022-09-27 18:10:13,309 - mylog - INFO - ==============Raw tables to staging table load started==============
+2022-09-27 18:10:13,310 - mylog - INFO - Raw tables to customers table load started../sql-scripts/customersRawToStg.sql 
